@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Firebase SDK -->
+   
     <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-auth-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore-compat.js"></script>
-    <!-- Razorpay SDK -->
+  
     <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
     <style>
         :root {
@@ -180,18 +180,18 @@
 
 
         .project-card:hover, .category-card:hover, .component-card:hover {
-            transform: translateY(-12px); /* A bit more lift */
+            transform: translateY(-12px); 
             box-shadow: 0 25px 50px rgba(0,0,0,0.15);
         }
 
         .project-img, .category-img {
             position: relative;
-            overflow: hidden; /* Ensure image zoom doesn't break card shape */
+            overflow: hidden; 
         }
 
-        /* Add an overlay on hover */
+     
         .project-img::after, .category-img::after {
-            content: '\f06e'; /* FontAwesome eye icon */
+            content: '\f06e'; 
             font-family: 'Font Awesome 6 Free';
             font-weight: 900;
             position: absolute;
@@ -223,7 +223,7 @@
         }
 
         .project-card:hover .project-img img, .category-card:hover .category-img img {
-            transform: scale(1.15) rotate(2deg); /* Add a slight rotation for dynamism */
+            transform: scale(1.15) rotate(2deg); 
         }
 
         .project-content, .category-content, .component-card {
@@ -452,10 +452,10 @@
             font-weight: bold;
         }
         
-        /* TECHWHIZ Assistant Styles */
+      
         #techwhiz-fab {
             position: fixed;
-            bottom: 3rem; /* MOVED UP to avoid overlap */
+            bottom: -7rem; /* MOVED UP to avoid overlap */
             right: 2rem;
             z-index: 100;
             box-shadow: 0 10px 30px rgba(0,0,0,0.3);
@@ -8493,4 +8493,5 @@ else if (lowerCommand.includes('what is sql') || lowerCommand.includes('sql')) {
     </script>
 
 </body>
+
 </html>
